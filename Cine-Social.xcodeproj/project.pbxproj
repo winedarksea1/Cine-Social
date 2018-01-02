@@ -8,13 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		C03FF4CD1FF59A970052FFEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03FF4CC1FF59A970052FFEF /* AppDelegate.swift */; };
-		C03FF4CF1FF59A970052FFEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03FF4CE1FF59A970052FFEF /* ViewController.swift */; };
+		C03FF4CF1FF59A970052FFEF /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03FF4CE1FF59A970052FFEF /* SignInVC.swift */; };
 		C03FF4D21FF59A970052FFEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03FF4D01FF59A970052FFEF /* Main.storyboard */; };
 		C03FF4D51FF59A970052FFEF /* Cine_Social.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C03FF4D31FF59A970052FFEF /* Cine_Social.xcdatamodeld */; };
 		C03FF4D71FF59A970052FFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03FF4D61FF59A970052FFEF /* Assets.xcassets */; };
 		C03FF4DA1FF59A970052FFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03FF4D81FF59A970052FFEF /* LaunchScreen.storyboard */; };
 		C03FF4E51FF59A970052FFEF /* Cine_SocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03FF4E41FF59A970052FFEF /* Cine_SocialTests.swift */; };
 		C03FF4F01FF59A970052FFEF /* Cine_SocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03FF4EF1FF59A970052FFEF /* Cine_SocialUITests.swift */; };
+		C03FF4FE1FF59C2C0052FFEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C03FF4FD1FF59C2C0052FFEF /* GoogleService-Info.plist */; };
+		C03FF4FF1FF59C2C0052FFEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C03FF4FD1FF59C2C0052FFEF /* GoogleService-Info.plist */; };
+		C03FF5001FF59C2C0052FFEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C03FF4FD1FF59C2C0052FFEF /* GoogleService-Info.plist */; };
+		C03FF5021FF6EDA60052FFEF /* Firebase in Resources */ = {isa = PBXBuildFile; fileRef = C03FF5011FF6EDA60052FFEF /* Firebase */; };
+		C03FF5031FF6EDA60052FFEF /* Firebase in Resources */ = {isa = PBXBuildFile; fileRef = C03FF5011FF6EDA60052FFEF /* Firebase */; };
+		C03FF5041FF6EDA60052FFEF /* Firebase in Resources */ = {isa = PBXBuildFile; fileRef = C03FF5011FF6EDA60052FFEF /* Firebase */; };
+		C03FF50D1FF6EDDB0052FFEF /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF5061FF6EDDB0052FFEF /* FirebaseAnalytics.framework */; };
+		C03FF50E1FF6EDDB0052FFEF /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF5071FF6EDDB0052FFEF /* FirebaseCore.framework */; };
+		C03FF50F1FF6EDDB0052FFEF /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF5081FF6EDDB0052FFEF /* FirebaseCoreDiagnostics.framework */; };
+		C03FF5101FF6EDDB0052FFEF /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF5091FF6EDDB0052FFEF /* FirebaseInstanceID.framework */; };
+		C03FF5111FF6EDDB0052FFEF /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF50A1FF6EDDB0052FFEF /* FirebaseNanoPB.framework */; };
+		C03FF5121FF6EDDB0052FFEF /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF50B1FF6EDDB0052FFEF /* GoogleToolboxForMac.framework */; };
+		C03FF5131FF6EDDB0052FFEF /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF50C1FF6EDDB0052FFEF /* nanopb.framework */; };
+		C03FF5161FF6EDED0052FFEF /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF5141FF6EDED0052FFEF /* FirebaseDatabase.framework */; };
+		C03FF5171FF6EDED0052FFEF /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF5151FF6EDED0052FFEF /* leveldb-library.framework */; };
+		C03FF51A1FF6EE010052FFEF /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF5181FF6EE010052FFEF /* FirebaseAuth.framework */; };
+		C03FF51B1FF6EE010052FFEF /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF5191FF6EE010052FFEF /* GTMSessionFetcher.framework */; };
+		C03FF51E1FF6EE1E0052FFEF /* FirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF51C1FF6EE1E0052FFEF /* FirebaseStorage.framework */; };
+		C03FF51F1FF6EE1E0052FFEF /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF51D1FF6EE1E0052FFEF /* GTMSessionFetcher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +56,7 @@
 /* Begin PBXFileReference section */
 		C03FF4C91FF59A970052FFEF /* Cine-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cine-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03FF4CC1FF59A970052FFEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C03FF4CE1FF59A970052FFEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C03FF4CE1FF59A970052FFEF /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		C03FF4D11FF59A970052FFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C03FF4D41FF59A970052FFEF /* Cine_Social.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cine_Social.xcdatamodel; sourceTree = "<group>"; };
 		C03FF4D61FF59A970052FFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +68,21 @@
 		C03FF4EB1FF59A970052FFEF /* Cine-SocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cine-SocialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03FF4EF1FF59A970052FFEF /* Cine_SocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cine_SocialUITests.swift; sourceTree = "<group>"; };
 		C03FF4F11FF59A970052FFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03FF4FD1FF59C2C0052FFEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C03FF5011FF6EDA60052FFEF /* Firebase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Firebase; sourceTree = "<group>"; };
+		C03FF5061FF6EDDB0052FFEF /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = "Cine-Social/Firebase/Analytics/FirebaseAnalytics.framework"; sourceTree = "<group>"; };
+		C03FF5071FF6EDDB0052FFEF /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = "Cine-Social/Firebase/Analytics/FirebaseCore.framework"; sourceTree = "<group>"; };
+		C03FF5081FF6EDDB0052FFEF /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = "Cine-Social/Firebase/Analytics/FirebaseCoreDiagnostics.framework"; sourceTree = "<group>"; };
+		C03FF5091FF6EDDB0052FFEF /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = "Cine-Social/Firebase/Analytics/FirebaseInstanceID.framework"; sourceTree = "<group>"; };
+		C03FF50A1FF6EDDB0052FFEF /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = "Cine-Social/Firebase/Analytics/FirebaseNanoPB.framework"; sourceTree = "<group>"; };
+		C03FF50B1FF6EDDB0052FFEF /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "Cine-Social/Firebase/Analytics/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
+		C03FF50C1FF6EDDB0052FFEF /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = "Cine-Social/Firebase/Analytics/nanopb.framework"; sourceTree = "<group>"; };
+		C03FF5141FF6EDED0052FFEF /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = "Cine-Social/Firebase/Database/FirebaseDatabase.framework"; sourceTree = "<group>"; };
+		C03FF5151FF6EDED0052FFEF /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "leveldb-library.framework"; path = "Cine-Social/Firebase/Database/leveldb-library.framework"; sourceTree = "<group>"; };
+		C03FF5181FF6EE010052FFEF /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = "Cine-Social/Firebase/Auth/FirebaseAuth.framework"; sourceTree = "<group>"; };
+		C03FF5191FF6EE010052FFEF /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = "Cine-Social/Firebase/Auth/GTMSessionFetcher.framework"; sourceTree = "<group>"; };
+		C03FF51C1FF6EE1E0052FFEF /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = "Cine-Social/Firebase/Storage/FirebaseStorage.framework"; sourceTree = "<group>"; };
+		C03FF51D1FF6EE1E0052FFEF /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = "Cine-Social/Firebase/Storage/GTMSessionFetcher.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03FF51E1FF6EE1E0052FFEF /* FirebaseStorage.framework in Frameworks */,
+				C03FF51F1FF6EE1E0052FFEF /* GTMSessionFetcher.framework in Frameworks */,
+				C03FF51A1FF6EE010052FFEF /* FirebaseAuth.framework in Frameworks */,
+				C03FF51B1FF6EE010052FFEF /* GTMSessionFetcher.framework in Frameworks */,
+				C03FF5161FF6EDED0052FFEF /* FirebaseDatabase.framework in Frameworks */,
+				C03FF5171FF6EDED0052FFEF /* leveldb-library.framework in Frameworks */,
+				C03FF50D1FF6EDDB0052FFEF /* FirebaseAnalytics.framework in Frameworks */,
+				C03FF50E1FF6EDDB0052FFEF /* FirebaseCore.framework in Frameworks */,
+				C03FF50F1FF6EDDB0052FFEF /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				C03FF5101FF6EDDB0052FFEF /* FirebaseInstanceID.framework in Frameworks */,
+				C03FF5111FF6EDDB0052FFEF /* FirebaseNanoPB.framework in Frameworks */,
+				C03FF5121FF6EDDB0052FFEF /* GoogleToolboxForMac.framework in Frameworks */,
+				C03FF5131FF6EDDB0052FFEF /* nanopb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +130,7 @@
 				C03FF4E31FF59A970052FFEF /* Cine-SocialTests */,
 				C03FF4EE1FF59A970052FFEF /* Cine-SocialUITests */,
 				C03FF4CA1FF59A970052FFEF /* Products */,
+				C03FF5051FF6EDDA0052FFEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +147,12 @@
 		C03FF4CB1FF59A970052FFEF /* Cine-Social */ = {
 			isa = PBXGroup;
 			children = (
+				C05839CC1FF9722200E0E069 /* Controller */,
+				C05839CB1FF9721D00E0E069 /* View */,
+				C05839CA1FF9720E00E0E069 /* Model */,
+				C03FF5011FF6EDA60052FFEF /* Firebase */,
+				C03FF4FD1FF59C2C0052FFEF /* GoogleService-Info.plist */,
 				C03FF4CC1FF59A970052FFEF /* AppDelegate.swift */,
-				C03FF4CE1FF59A970052FFEF /* ViewController.swift */,
 				C03FF4D01FF59A970052FFEF /* Main.storyboard */,
 				C03FF4D61FF59A970052FFEF /* Assets.xcassets */,
 				C03FF4D81FF59A970052FFEF /* LaunchScreen.storyboard */,
@@ -126,6 +178,48 @@
 				C03FF4F11FF59A970052FFEF /* Info.plist */,
 			);
 			path = "Cine-SocialUITests";
+			sourceTree = "<group>";
+		};
+		C03FF5051FF6EDDA0052FFEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C03FF51C1FF6EE1E0052FFEF /* FirebaseStorage.framework */,
+				C03FF51D1FF6EE1E0052FFEF /* GTMSessionFetcher.framework */,
+				C03FF5181FF6EE010052FFEF /* FirebaseAuth.framework */,
+				C03FF5191FF6EE010052FFEF /* GTMSessionFetcher.framework */,
+				C03FF5141FF6EDED0052FFEF /* FirebaseDatabase.framework */,
+				C03FF5151FF6EDED0052FFEF /* leveldb-library.framework */,
+				C03FF5061FF6EDDB0052FFEF /* FirebaseAnalytics.framework */,
+				C03FF5071FF6EDDB0052FFEF /* FirebaseCore.framework */,
+				C03FF5081FF6EDDB0052FFEF /* FirebaseCoreDiagnostics.framework */,
+				C03FF5091FF6EDDB0052FFEF /* FirebaseInstanceID.framework */,
+				C03FF50A1FF6EDDB0052FFEF /* FirebaseNanoPB.framework */,
+				C03FF50B1FF6EDDB0052FFEF /* GoogleToolboxForMac.framework */,
+				C03FF50C1FF6EDDB0052FFEF /* nanopb.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C05839CA1FF9720E00E0E069 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C05839CB1FF9721D00E0E069 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C05839CC1FF9722200E0E069 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C03FF4CE1FF59A970052FFEF /* SignInVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +332,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03FF5021FF6EDA60052FFEF /* Firebase in Resources */,
 				C03FF4DA1FF59A970052FFEF /* LaunchScreen.storyboard in Resources */,
+				C03FF4FE1FF59C2C0052FFEF /* GoogleService-Info.plist in Resources */,
 				C03FF4D71FF59A970052FFEF /* Assets.xcassets in Resources */,
 				C03FF4D21FF59A970052FFEF /* Main.storyboard in Resources */,
 			);
@@ -248,6 +344,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03FF4FF1FF59C2C0052FFEF /* GoogleService-Info.plist in Resources */,
+				C03FF5031FF6EDA60052FFEF /* Firebase in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +353,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03FF5001FF59C2C0052FFEF /* GoogleService-Info.plist in Resources */,
+				C03FF5041FF6EDA60052FFEF /* Firebase in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C03FF4D51FF59A970052FFEF /* Cine_Social.xcdatamodeld in Sources */,
-				C03FF4CF1FF59A970052FFEF /* ViewController.swift in Sources */,
+				C03FF4CF1FF59A970052FFEF /* SignInVC.swift in Sources */,
 				C03FF4CD1FF59A970052FFEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +518,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V4P7JY664L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cine-Social/Firebase/Analytics",
+					"$(PROJECT_DIR)/Cine-Social/Firebase/Database",
+					"$(PROJECT_DIR)/Cine-Social/Firebase/Auth",
+					"$(PROJECT_DIR)/Cine-Social/Firebase/Storage",
+				);
 				INFOPLIST_FILE = "Cine-Social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.winedarkproductions.Cine-Social";
@@ -431,6 +538,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V4P7JY664L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cine-Social/Firebase/Analytics",
+					"$(PROJECT_DIR)/Cine-Social/Firebase/Database",
+					"$(PROJECT_DIR)/Cine-Social/Firebase/Auth",
+					"$(PROJECT_DIR)/Cine-Social/Firebase/Storage",
+				);
 				INFOPLIST_FILE = "Cine-Social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.winedarkproductions.Cine-Social";
@@ -516,6 +630,7 @@
 				C03FF4F61FF59A970052FFEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C03FF4F71FF59A970052FFEF /* Build configuration list for PBXNativeTarget "Cine-SocialTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +639,7 @@
 				C03FF4F91FF59A970052FFEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C03FF4FA1FF59A970052FFEF /* Build configuration list for PBXNativeTarget "Cine-SocialUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +648,7 @@
 				C03FF4FC1FF59A970052FFEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
