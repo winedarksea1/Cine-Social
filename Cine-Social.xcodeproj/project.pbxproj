@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00896881FFD7BDB0045973B /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00896871FFD7BDB0045973B /* FancyBtn.swift */; };
 		C03FF4CD1FF59A970052FFEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03FF4CC1FF59A970052FFEF /* AppDelegate.swift */; };
 		C03FF4CF1FF59A970052FFEF /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03FF4CE1FF59A970052FFEF /* SignInVC.swift */; };
 		C03FF4D21FF59A970052FFEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03FF4D01FF59A970052FFEF /* Main.storyboard */; };
@@ -34,6 +35,10 @@
 		C03FF51B1FF6EE010052FFEF /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF5191FF6EE010052FFEF /* GTMSessionFetcher.framework */; };
 		C03FF51E1FF6EE1E0052FFEF /* FirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF51C1FF6EE1E0052FFEF /* FirebaseStorage.framework */; };
 		C03FF51F1FF6EE1E0052FFEF /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FF51D1FF6EE1E0052FFEF /* GTMSessionFetcher.framework */; };
+		C052A9191FFB4416007B97BD /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C052A9181FFB4416007B97BD /* FancyView.swift */; };
+		C052A91C1FFB4510007B97BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C052A91B1FFB4510007B97BD /* Constants.swift */; };
+		C052A91E1FFB4BEB007B97BD /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C052A91D1FFB4BEB007B97BD /* RoundBtn.swift */; };
+		C052A9201FFB5004007B97BD /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C052A91F1FFB5004007B97BD /* FancyField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C00896871FFD7BDB0045973B /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		C03FF4C91FF59A970052FFEF /* Cine-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cine-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03FF4CC1FF59A970052FFEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C03FF4CE1FF59A970052FFEF /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -83,6 +89,10 @@
 		C03FF5191FF6EE010052FFEF /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = "Cine-Social/Firebase/Auth/GTMSessionFetcher.framework"; sourceTree = "<group>"; };
 		C03FF51C1FF6EE1E0052FFEF /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = "Cine-Social/Firebase/Storage/FirebaseStorage.framework"; sourceTree = "<group>"; };
 		C03FF51D1FF6EE1E0052FFEF /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = "Cine-Social/Firebase/Storage/GTMSessionFetcher.framework"; sourceTree = "<group>"; };
+		C052A9181FFB4416007B97BD /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		C052A91B1FFB4510007B97BD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C052A91D1FFB4BEB007B97BD /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		C052A91F1FFB5004007B97BD /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +157,7 @@
 		C03FF4CB1FF59A970052FFEF /* Cine-Social */ = {
 			isa = PBXGroup;
 			children = (
+				C052A91A1FFB44F6007B97BD /* Util */,
 				C05839CC1FF9722200E0E069 /* Controller */,
 				C05839CB1FF9721D00E0E069 /* View */,
 				C05839CA1FF9720E00E0E069 /* Model */,
@@ -200,6 +211,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C052A91A1FFB44F6007B97BD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C052A91B1FFB4510007B97BD /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		C05839CA1FF9720E00E0E069 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +229,10 @@
 		C05839CB1FF9721D00E0E069 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C052A9181FFB4416007B97BD /* FancyView.swift */,
+				C052A91D1FFB4BEB007B97BD /* RoundBtn.swift */,
+				C052A91F1FFB5004007B97BD /* FancyField.swift */,
+				C00896871FFD7BDB0045973B /* FancyBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -365,8 +388,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C052A91C1FFB4510007B97BD /* Constants.swift in Sources */,
 				C03FF4D51FF59A970052FFEF /* Cine_Social.xcdatamodeld in Sources */,
 				C03FF4CF1FF59A970052FFEF /* SignInVC.swift in Sources */,
+				C052A91E1FFB4BEB007B97BD /* RoundBtn.swift in Sources */,
+				C052A9191FFB4416007B97BD /* FancyView.swift in Sources */,
+				C052A9201FFB5004007B97BD /* FancyField.swift in Sources */,
+				C00896881FFD7BDB0045973B /* FancyBtn.swift in Sources */,
 				C03FF4CD1FF59A970052FFEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
