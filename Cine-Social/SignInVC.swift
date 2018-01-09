@@ -19,7 +19,12 @@ class SignInVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if let _ = KeychainWrapper.standard.string(forKey: KEY_UID) {
+            performSegue(withIdentifier: "FeedVC", sender: nil)
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,30 +56,46 @@ class SignInVC: UIViewController {
                 print("JESS: Unable to authenticate with Firebase - \(error)")
             } else {
                 print("JESS: Successfully authenticated with Firebase")
-
+                if let user = user {
+                    self.completeSignIn(id: user.uid)
+                }
             }
         })
     }
+    
+    // Custom Methods
+    func completeSignIn(id: String) {
+       let saveSuccessful = KeychainWrapper.standard.set(id, forKey: KEY_UID)
+        print("JESS: Data saved to keychain \(saveSuccessful))")
+        performSegue(withIdentifier: "FeedVC", sender: nil)
+    }
 
-    //Actions
+    // Actions
     
     @IBAction func signInTapped(_ sender: Any) {
         if let email = emailField.text, let pwd = pwdField.text {
             Auth.auth().signIn(withEmail: email, password: pwd, completion: {(user, error) in
                 if error == nil {
                     print("JESS: Email user authenticated with Firebase")
+                    if let user = user {
+                        self.completeSignIn(id: user.uid)
+                    }
                 } else {
                     Auth.auth().createUser(withEmail: email, password: pwd, completion: {(user, error) in
                         if error != nil {
                             print("JESS: Unbale to authenticate with Firebase using email")
                         } else {
                             print("JESS: Successfully authenticated with Firebase")
+                            if let user = user {
+                                self.completeSignIn(id: user.uid)
+                            }
                         }
                     })
                 }
             })
         }
     }
+                                
     
 }
 
