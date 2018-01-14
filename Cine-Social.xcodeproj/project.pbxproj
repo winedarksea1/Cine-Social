@@ -43,6 +43,8 @@
 		C083C1FF2002EF3300E91080 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083C1FD2002EF3300E91080 /* KeychainWrapper.swift */; };
 		C083C2012005778900E91080 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083C2002005778900E91080 /* FeedVC.swift */; };
 		C083C20420072B9400E91080 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083C20320072B9400E91080 /* CircleView.swift */; };
+		C083C20620082DE400E91080 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083C20520082DE400E91080 /* PostCell.swift */; };
+		C083C209200AA57400E91080 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083C208200AA57400E91080 /* DataService.swift */; };
 		C0F62EBB1FFDC37E008FAC0C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F62EBA1FFDC37D008FAC0C /* FBSDKLoginKit.framework */; };
 		C0F62EBD1FFDC3F2008FAC0C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F62EBC1FFDC3F2008FAC0C /* FBSDKCoreKit.framework */; };
 		C0F62EC61FFDCB4B008FAC0C /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F62EBE1FFDCB4B008FAC0C /* AccountKit.framework */; };
@@ -111,6 +113,8 @@
 		C083C1FD2002EF3300E91080 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 		C083C2002005778900E91080 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		C083C20320072B9400E91080 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		C083C20520082DE400E91080 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		C083C208200AA57400E91080 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		C0F62EBA1FFDC37D008FAC0C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		C0F62EBC1FFDC3F2008FAC0C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		C0F62EBE1FFDCB4B008FAC0C /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
@@ -212,6 +216,7 @@
 		C03FF4CB1FF59A970052FFEF /* Cine-Social */ = {
 			isa = PBXGroup;
 			children = (
+				C083C207200AA54C00E91080 /* Services */,
 				C00896891FFD8C4E0045973B /* Frameworks */,
 				C052A91A1FFB44F6007B97BD /* Util */,
 				C05839CC1FF9722200E0E069 /* Controller */,
@@ -290,6 +295,7 @@
 				C052A91F1FFB5004007B97BD /* FancyField.swift */,
 				C00896871FFD7BDB0045973B /* FancyBtn.swift */,
 				C083C20320072B9400E91080 /* CircleView.swift */,
+				C083C20520082DE400E91080 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -301,6 +307,14 @@
 				C083C2002005778900E91080 /* FeedVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		C083C207200AA54C00E91080 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C083C208200AA57400E91080 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,7 +463,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C083C20420072B9400E91080 /* CircleView.swift in Sources */,
+				C083C209200AA57400E91080 /* DataService.swift in Sources */,
 				C052A91C1FFB4510007B97BD /* Constants.swift in Sources */,
+				C083C20620082DE400E91080 /* PostCell.swift in Sources */,
 				C03FF4D51FF59A970052FFEF /* Cine_Social.xcdatamodeld in Sources */,
 				C083C2012005778900E91080 /* FeedVC.swift in Sources */,
 				C03FF4CF1FF59A970052FFEF /* SignInVC.swift in Sources */,
