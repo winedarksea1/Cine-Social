@@ -45,6 +45,7 @@
 		C083C20420072B9400E91080 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083C20320072B9400E91080 /* CircleView.swift */; };
 		C083C20620082DE400E91080 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083C20520082DE400E91080 /* PostCell.swift */; };
 		C083C209200AA57400E91080 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083C208200AA57400E91080 /* DataService.swift */; };
+		C083C20B200C117400E91080 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083C20A200C117400E91080 /* Post.swift */; };
 		C0F62EBB1FFDC37E008FAC0C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F62EBA1FFDC37D008FAC0C /* FBSDKLoginKit.framework */; };
 		C0F62EBD1FFDC3F2008FAC0C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F62EBC1FFDC3F2008FAC0C /* FBSDKCoreKit.framework */; };
 		C0F62EC61FFDCB4B008FAC0C /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F62EBE1FFDCB4B008FAC0C /* AccountKit.framework */; };
@@ -115,6 +116,7 @@
 		C083C20320072B9400E91080 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		C083C20520082DE400E91080 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		C083C208200AA57400E91080 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		C083C20A200C117400E91080 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C0F62EBA1FFDC37D008FAC0C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		C0F62EBC1FFDC3F2008FAC0C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		C0F62EBE1FFDCB4B008FAC0C /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 		C05839CA1FF9720E00E0E069 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C083C20A200C117400E91080 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 				C03FF4CF1FF59A970052FFEF /* SignInVC.swift in Sources */,
 				C052A91E1FFB4BEB007B97BD /* RoundBtn.swift in Sources */,
 				C052A9191FFB4416007B97BD /* FancyView.swift in Sources */,
+				C083C20B200C117400E91080 /* Post.swift in Sources */,
 				C083C1FE2002EF3300E91080 /* KeychainItemAccessibility.swift in Sources */,
 				C052A9201FFB5004007B97BD /* FancyField.swift in Sources */,
 				C00896881FFD7BDB0045973B /* FancyBtn.swift in Sources */,
