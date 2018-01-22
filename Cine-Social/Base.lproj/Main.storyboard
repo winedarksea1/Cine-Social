@@ -231,7 +231,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="409"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="abh-8v-AUM" id="kRO-Bc-Jej">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="408"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="409"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e01-pT-spL" customClass="FancyView" customModule="Cine_Social" customModuleProvider="target">
@@ -281,16 +281,16 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Gkw-B8-lH4">
-                                                            <rect key="frame" x="242.5" y="346" width="76.5" height="22"/>
+                                                            <rect key="frame" x="242" y="346" width="77" height="22"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Likes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8q-3o-xyE">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="35.5" height="22"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="36" height="22"/>
                                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.54000000000000004" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8888" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="af7-km-Srt">
-                                                                    <rect key="frame" x="40.5" y="0.0" width="36" height="22"/>
+                                                                    <rect key="frame" x="41" y="0.0" width="36" height="22"/>
                                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -320,6 +320,7 @@
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <connections>
                                             <outlet property="caption" destination="8Wi-zz-QUy" id="j4m-O9-mNK"/>
+                                            <outlet property="likeImg" destination="wkn-dR-IDo" id="w0W-Ip-Cf9"/>
                                             <outlet property="likeLbl" destination="af7-km-Srt" id="KEs-5q-Slv"/>
                                             <outlet property="postImg" destination="6J4-Ib-cZY" id="aGt-qm-Hyj"/>
                                             <outlet property="profileImg" destination="QS7-pB-xvi" id="EfV-jP-qIJ"/>
